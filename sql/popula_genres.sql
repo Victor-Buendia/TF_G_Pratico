@@ -1,3 +1,21 @@
+-- --------  << TF - ETL >>  ----------
+--
+--                     SCRIPT DE CRIACAO (DML)
+--
+-- Data Criacao ...........: 12/02/2023
+-- Autor(es) ..............: Lucas Ursulino Boaventura, Victor Buendia Cruz De Alvim, Yudi Yamane de Azevedo
+-- Banco de Dados .........: Postgres 13
+-- Base de Dados (nome) ...: tf_etl_sbd2
+--
+-- Ultimas Alteracoes
+--   12/02/2023 => Criaçao do script de popula bara a tabela de genres
+--
+-- PROJETO => 01 Base de Dados
+--         => 04 Tabelas
+--         => 01 Função
+--
+-- ---------------------------------------------------------
+
 INSERT INTO genres (genre, publish_year, movies) 
 	VALUES ('(no genres listed)', null, 212),
 	('Action', null, 16),
